@@ -4,6 +4,8 @@
 
 This is a fork of the MKS-Robin-Nano-Marlin2.0-Firwmare GitHub with configurations and changes made to specifically support the FOKOOS Odin 5-F3 ( and eventually F4 ) 3D printer. 
 
+![](https://github.com/martinbogo/Marlin-2.0-for-Odin-5-F3/blob/main/odin-5-f3.jpg)
+
 ## Features
 The printer firmware is based on that of the MKS Robin Nano, which itself is forked from [Marlin2.0.x](https://github.com/MarlinFirmware/Marlin) and adds the [LittlevGL](https://github.com/littlevgl/lvgl) adds a colourful GUI and touch screen suport.  LittlevGL support is being folded back into the main Marlin 2.0 firmware tree and at that point this firmware will be refactored to operate off that branch until everything can be folded back in the main line.
 
