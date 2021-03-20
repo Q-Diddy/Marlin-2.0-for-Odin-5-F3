@@ -5,7 +5,7 @@ import zipfile
 import tempfile
 import shutil
 
-url = "https://github.com/makerbase-mks/Mks-Robin-Nano-Marlin2.0-Firmware/archive/master.zip"
+url = "https://github.com/martinbogo/Marlin-2.0-for-Odin-5-F3/archive/master.zip"
 zip_path = os.path.join(env.Dictionary("PROJECT_LIBDEPS_DIR"), "mks-assets.zip")
 assets_path = os.path.join(env.Dictionary("PROJECT_BUILD_DIR"), env.Dictionary("PIOENV"), "assets")
 
