@@ -66,8 +66,8 @@
 //
 #define X_STOP_PIN                          PA15
 #define Y_STOP_PIN                          PA12
-#define Z_MIN_PIN                           PC4 // PA11 is normally ZMIN
-#define Z_MAX_PIN                           PA11 // PC4 is normally ZMAX
+#define Z_MIN_PIN                           PA11 // PA11 is normally Z_MIN
+#define Z_MAX_PIN                           PC4 // PC4 is normally Z_MAX
 
 //
 // Steppers
