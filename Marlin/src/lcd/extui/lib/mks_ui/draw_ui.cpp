@@ -142,10 +142,10 @@ void gCfgItems_init() {
   gCfgItems.wifi_mode_sel = STA_MODEL;
   gCfgItems.fileSysType   = FILE_SYS_SD;
   gCfgItems.wifi_type     = ESP_WIFI;
-  gCfgItems.filamentchange_load_length   = 200;
-  gCfgItems.filamentchange_load_speed    = 1000;
-  gCfgItems.filamentchange_unload_length = 200;
-  gCfgItems.filamentchange_unload_speed  = 1000;
+  gCfgItems.filamentchange_load_length   = 50;
+  gCfgItems.filamentchange_load_speed    = 150;
+  gCfgItems.filamentchange_unload_length = 50;
+  gCfgItems.filamentchange_unload_speed  = 150;
   gCfgItems.filament_limit_temper        = 200;
 
   gCfgItems.encoder_enable = true;
