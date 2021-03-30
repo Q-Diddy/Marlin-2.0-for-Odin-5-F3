@@ -39,12 +39,12 @@ def copy_mks_assets():
 		shutil.copy(os.path.join(output_path, base_path, 'Firmware', 'mks_pic', filename), assets_path)
 	shutil.rmtree(output_path, ignore_errors=True)
 
-if os.path.exists(zip_path) != False:
-	print("debug download_mks_assets()")
+if os.path.exists(zip_path) == False:
+	print("[DEBUG] download_mks_assets()")
 	print("zip path is: "+zip_path)
 	download_mks_assets()
 
 if os.path.exists(assets_path) == False:
-	print("debug copy_mks_assets()")
+	print("[DEBUG] copy_mks_assets()")
 	print("assets path is "+assets_path)
 	copy_mks_assets()
