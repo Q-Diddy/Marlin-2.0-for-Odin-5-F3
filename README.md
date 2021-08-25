@@ -1,5 +1,18 @@
 # Mks-Robin-Nano-Marlin2.0-Firmware for FoKoos Odin 5-F3 3D Printer
 
+**UPDATE UPDATE UPDATE**
+
+All my patches have now been folded back into MARLIN 2.0-Bugfix as of Aug 25th, 2021.  FOKOOS Odin 5-F3 printers are now fully supported using the robin-nano-1.2 profile and a couple changes to the pins.h file.
+
+This repository will remain online as a resource, but if you want to use the MOST up-to-date firmware, you should head on over to:
+
+https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x
+
+I will soon be REMOVING ALL FIRMWARE IMAGES AND SOURCE CODE from this repository ( Sept 1st, 2021 ) and leaving only suggested configuration files, images, and slicer configuration profiles.   
+
+Sincerely,
+Martin
+
 ## Purpose
 
 This is a fork of the MKS-Robin-Nano-Marlin2.0-Firwmare GitHub with configurations and changes made to specifically support the FOKOOS Odin 5-F3 ( and eventually F4 ) 3D printer. 
